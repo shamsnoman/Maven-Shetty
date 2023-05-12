@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.section23.Test.ErrorValidationsTest">
+        <methods>
+          <include name="productErrorValidation"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- com.section23.Test.ErrorValidationsTest -->
+      <class name="com.section20.Test.ErrorValidationsTest">
+        <methods>
+          <include name="logInErrorValidation"/>
+          <include name="productErrorValidation"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.section20.Test.ErrorValidationsTest -->
+      <class name="com.section21.Test.ErrorValidationsTest">
+        <methods>
+          <include name="productErrorValidation"/>
+          <include name="logInErrorValidation"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.section21.Test.ErrorValidationsTest -->
+      <class name="com.section22.Test.ErrorValidationsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="productErrorValidation"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- com.section22.Test.ErrorValidationsTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
